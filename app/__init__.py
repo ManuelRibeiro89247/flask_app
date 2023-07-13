@@ -1,11 +1,11 @@
 from flask import Flask, jsonify, request
-from flask_ngrok import run_with_ngrok
+#from flask_ngrok import run_with_ngrok
 from tensorflow import keras
 import json
 import os
 
 app = Flask(__name__)
-run_with_ngrok(app)
+#run_with_ngrok(app)
 
 
 current_directory = os.path.dirname(os.path.abspath(__file__))
